@@ -8,6 +8,7 @@ Created using: MongoDB, Express, AngularJS & Node.js
 
 Future Ideas:
     Integrate addresses with the Yelp API
+    
     ~~Integrating maps interaction with addresses.~~
 
 [*Restaurant App Heroku URL:
