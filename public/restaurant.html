@@ -14,7 +14,7 @@
 </div>
 <div ng-hide="editMode" class="container">
   <div>
-    <p ng-if="restaurant.address">address: {{ restaurant.address }}</a></p>
+    <p ng-if="restaurant.address">address: <a ng-href="http://maps.apple.com/?q={{ restaurant.address }}">{{ restaurant.address }}</a></p>
     <p ng-if="restaurant.phone">phone: <a ng-href="tel:{{ restaurant.phone }}">{{ restaurant.phone }}</a></p>
     <p>
       <button style="margin-top:20px" class="btn btn-default" ng-click="toggleEdit()">Edit</button>
